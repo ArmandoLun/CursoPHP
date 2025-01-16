@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
+    <nav>
+        <a href="formulario.php"> Formulario.php </a> 
+        <br>
+        <a href="recibir.php"> Recibir.php </a>
+    </nav>
 </head>
 <body>
+    
     <?php
     //variables superglobales
 
@@ -20,5 +26,6 @@
     echo '<h1> USER AGENT:'.$_SERVER['HTTP_USER_AGENT'].'</h1>';
     echo '<h1> IP REMOTA: '.$_SERVER['REMOTE_ADDR'].'</h1>';
      ?>
+     
 </body>
 </html>
